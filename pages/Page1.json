@@ -203,15 +203,44 @@
                 "step": 62,
                 "status": 75
               }
+            },
+            {
+              "widgetName": "DocumentViewer1",
+              "rightColumn": 53,
+              "isCanvas": false,
+              "displayName": "Document Viewer",
+              "iconSVG": "/static/media/icon.09fcd36b.svg",
+              "widgetId": "byxojcehtt",
+              "topRow": 51,
+              "bottomRow": 95,
+              "parentRowSpace": 10,
+              "isVisible": true,
+              "type": "DOCUMENT_VIEWER_WIDGET",
+              "version": 1,
+              "hideCard": false,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "animateLoading": true,
+              "parentColumnSpace": 10.0625,
+              "dynamicTriggerPathList": [],
+              "leftColumn": 18,
+              "dynamicBindingPathList": [
+                {
+                  "key": "docUrl"
+                }
+              ],
+              "docUrl": "{{Table1.selectedRow.Url}}",
+              "key": "dfg4ygxe28"
             }
           ]
         },
         "layoutOnLoadActions": [
           [
             {
-              "id": "61c9706114b067061fc1a063",
-              "name": "Query1",
-              "pluginType": "DB",
+              "id": "61c9706114b067061fc1a062",
+              "name": "Api1",
+              "pluginType": "SAAS",
               "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
             },
@@ -223,15 +252,16 @@
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "61c9706114b067061fc1a062",
-              "name": "Api1",
-              "pluginType": "SAAS",
+              "id": "61c9706114b067061fc1a063",
+              "name": "Query1",
+              "pluginType": "DB",
               "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
             }
           ]
         ],
         "widgetNames": [
+          "DocumentViewer1",
           "MainContainer",
           "Table1"
         ],
@@ -449,15 +479,44 @@
                 "step": 62,
                 "status": 75
               }
+            },
+            {
+              "widgetName": "DocumentViewer1",
+              "rightColumn": 53,
+              "isCanvas": false,
+              "displayName": "Document Viewer",
+              "iconSVG": "/static/media/icon.09fcd36b.svg",
+              "widgetId": "byxojcehtt",
+              "topRow": 51,
+              "bottomRow": 95,
+              "parentRowSpace": 10,
+              "isVisible": true,
+              "type": "DOCUMENT_VIEWER_WIDGET",
+              "version": 1,
+              "hideCard": false,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "animateLoading": true,
+              "parentColumnSpace": 10.0625,
+              "dynamicTriggerPathList": [],
+              "leftColumn": 18,
+              "dynamicBindingPathList": [
+                {
+                  "key": "docUrl"
+                }
+              ],
+              "docUrl": "{{Table1.selectedRow.Url}}",
+              "key": "dfg4ygxe28"
             }
           ]
         },
         "layoutOnLoadActions": [
           [
             {
-              "id": "61c9706114b067061fc1a063",
-              "name": "Query1",
-              "pluginType": "DB",
+              "id": "61c9706114b067061fc1a062",
+              "name": "Api1",
+              "pluginType": "SAAS",
               "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
             },
@@ -469,15 +528,16 @@
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "61c9706114b067061fc1a062",
-              "name": "Api1",
-              "pluginType": "SAAS",
+              "id": "61c9706114b067061fc1a063",
+              "name": "Query1",
+              "pluginType": "DB",
               "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
             }
           ]
         ],
         "widgetNames": [
+          "DocumentViewer1",
           "MainContainer",
           "Table1"
         ],
