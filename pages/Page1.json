@@ -209,15 +209,15 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "61c583c9d1bea23ce0394617",
-              "name": "Query2",
+              "id": "61c582efd1bea23ce0394615",
+              "name": "Query1",
               "pluginType": "DB",
               "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "61c582efd1bea23ce0394615",
-              "name": "Query1",
+              "id": "61c583c9d1bea23ce0394617",
+              "name": "Query2",
               "pluginType": "DB",
               "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
@@ -455,15 +455,15 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "61c583c9d1bea23ce0394617",
-              "name": "Query2",
+              "id": "61c582efd1bea23ce0394615",
+              "name": "Query1",
               "pluginType": "DB",
               "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "61c582efd1bea23ce0394615",
-              "name": "Query1",
+              "id": "61c583c9d1bea23ce0394617",
+              "name": "Query2",
               "pluginType": "DB",
               "jsonPathKeys": [],
               "timeoutInMillisecond": 10000

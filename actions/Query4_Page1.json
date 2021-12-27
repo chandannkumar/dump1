@@ -2,7 +2,7 @@
   "pluginType": "DB",
   "pluginId": "mysql-plugin",
   "unpublishedAction": {
-    "name": "Query2",
+    "name": "Query4",
     "datasource": {
       "pluginId": "mysql-plugin",
       "messages": [],
@@ -17,26 +17,21 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "",
-      "pluginSpecifiedTemplates": [
-        {
-          "value": true
-        }
-      ]
+      "body": "INSERT INTO Neighbours (name, age, road)\n  VALUES ('Shahid', 19, 'BD4'),\n\t('Mustafa', 20,'GH34');"
     },
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "dynamicBindingPathList": [],
     "isValid": true,
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [],
-    "userSetOnLoad": true,
+    "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
   "publishedAction": {
-    "name": "Query2",
+    "name": "Query4",
     "datasource": {
       "pluginId": "mysql-plugin",
       "messages": [],
@@ -51,30 +46,25 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "",
-      "pluginSpecifiedTemplates": [
-        {
-          "value": true
-        }
-      ]
+      "body": "INSERT INTO Neighbours (name, age, road)\n  VALUES ('Shahid', 19, 'BD4'),\n\t('Mustafa', 20,'GH34');"
     },
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "dynamicBindingPathList": [],
     "isValid": true,
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [],
-    "userSetOnLoad": true,
+    "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "61c583c9d1bea23ce0394617",
+  "id": "61c9566514b067061fc19fca",
   "deleted": false,
   "userPermissions": [
     "read:actions",
     "execute:actions",
     "manage:actions"
   ],
-  "gitSyncId": "61c571c0dec19412f6c5d4f4_61c583c9d1bea23ce0394616"
+  "gitSyncId": "61c571c0dec19412f6c5d4f4_61c9566514b067061fc19fc9"
 }
